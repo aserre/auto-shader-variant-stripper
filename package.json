@@ -1,0 +1,29 @@
+{
+    "name": "com.aserre.auto-shader-variant-stripper",
+    "version": "1.0.0",
+    "displayName": "Auto Shader Variant Stripper",
+    "description": "Automatically removes variants at build time by analyzing Materials in the project and using IPreprocessShaders API. Can be customized to allow additional keywords.",
+    "unity": "2022.3",
+    "documentationUrl": "https://github.com/aserre/auto-shader-variant-stripper",
+    "dependencies": {
+        "com.unity.render-pipelines.universal": "14.0.11"
+    },
+    "keywords": [
+        "URP",
+        "shader",
+        "variant"
+    ],
+    "author": {
+        "name": "Antoine Serre",
+        "email": "antoine.serre@unity3d.com",
+        "url": "https://github.com/aserre"
+    },
+    "hideInEditor": false,
+    "samples": [
+        {
+            "displayName": "Example",
+            "description": "Contains sample ShaderVariantCollectionBuilder and ShaderVariantPreprocessorSettings as a reference",
+            "path": "Samples~/Example"
+        }
+    ]
+}
